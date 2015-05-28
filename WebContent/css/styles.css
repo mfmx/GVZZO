@@ -1,0 +1,88 @@
+/* css font colors and font */
+#logo{
+	color:gray;
+	font-size:50px
+}
+#logoBlue{
+	color:#0099FF;
+	font-size:50px
+}
+#title{
+	color:gray;
+}
+
+#description{
+	color:gray;
+}
+
+#contact{
+	color:darkgray;
+}
+
+#click{
+	color:gray;
+}
+
+.BLogo1{
+	color:lightgray;
+	font-size:20px;
+}
+.BLogo{
+	color:lightgray;
+	font-size:20px;
+}
+
+/* css position */
+#firstRow{
+	margin:200px 0px 0px 0px;
+}
+
+#logo{
+	/* align:center; ----- inline css */
+	margin:50px 0px 100px 0px;
+}
+
+
+#bottomLogo{
+	margin:100px 0px 0px 0px;
+}
+.BLogo1{
+	float:right;
+}
+
+	
+	
+
+
+
+ /* ---------box -------- */
+#firstDiv{
+border:1px;
+}
+
+#secondDiv{
+	border:1px;
+} 
+
+/* Media Queries */
+
+@media screen and (max-width : 768px) { 
+
+	#firstRow{
+	margin:50px 0px 0px 0px;
+}
+#firstDiv{
+ border-top: 1px solid; 
+ 
+ }
+ #title{
+ font-size:20px;}
+}
+
+@media screen and (min-width : 769px) { 
+
+#firstDiv{
+ border-left: 1px solid; 
+ 
+ }
+}
